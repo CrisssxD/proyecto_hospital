@@ -25,3 +25,5 @@ Route::resource('medicos', 'medicoController');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::resource('insumos', 'insumoController');
